@@ -11,8 +11,37 @@ updates:
     schedule:
       interval: 'daily'
 
-  # Maintain dependencies for npm
+  # Maintain dependencies for main packages
   - package-ecosystem: 'npm'
     directory: '/'
+    open-pull-requests-limit: 10
+    schedule:
+      interval: 'daily'
+
+  # Maintain dependencies for frontend apps
+  - package-ecosystem: 'npm'
+    directory: '/apps/frontend'
+    open-pull-requests-limit: 10
+    schedule:
+      interval: 'daily'
+
+  # Maintain dependencies for backend apps
+  - package-ecosystem: 'npm'
+    directory: '/apps/backend'
+    open-pull-requests-limit: 10
+    schedule:
+      interval: 'daily'
+
+  # Maintain dependencies for database packages
+  - package-ecosystem: 'npm'
+    directory: '/packages/database'
+    open-pull-requests-limit: 10
+    schedule:
+      interval: 'daily'
+
+  # Maintain dependencies for eslint-config-custom packages
+  - package-ecosystem: 'npm'
+    directory: '/packages/eslint-config-custom'
+    open-pull-requests-limit: 10
     schedule:
       interval: 'daily'
