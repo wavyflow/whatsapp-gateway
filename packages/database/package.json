@@ -1,0 +1,39 @@
+{
+  "name": "database",
+  "version": "0.0.1",
+  "license": "UNLICENSED",
+  "packageManager": "yarn@3.5.1",
+  "private": true,
+  "scripts": {
+    "build": "tsup",
+    "clean": "rimraf .turbo node_modules dist",
+    "db:migrate:deploy": "prisma migrate deploy",
+    "db:migrate:dev": "prisma migrate dev",
+    "db:push": "prisma db push",
+    "db:seed": "tsx src/seed.ts",
+    "dev": "tsup --watch",
+    "format": "prisma format && prettier --write --ignore-path .gitignore .",
+    "generate": "prisma generate",
+    "lint": "eslint \"*.ts\"",
+    "studio": "prisma studio"
+  },
+  "devDependencies": {
+    "@types/node": "^20.2.3",
+    "@typescript-eslint/eslint-plugin": "^5.30.7",
+    "@typescript-eslint/parser": "^5.59.6",
+    "eslint": "^8.0.1",
+    "eslint-config-custom": "workspace:^",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.3.2",
+    "prisma": "^4.14.1",
+    "rimraf": "^5.0.1",
+    "tsconfig": "workspace:^",
+    "tsup": "^6.7.0",
+    "tsx": "^3.12.7",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "@prisma/client": "^4.14.1"
+  }
+}
