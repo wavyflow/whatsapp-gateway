@@ -1619,9 +1619,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nestjs/platform-fastify@npm:^9.4.1":
-  version: 9.4.1
-  resolution: "@nestjs/platform-fastify@npm:9.4.1"
+"@nestjs/platform-fastify@npm:^9.4.2":
+  version: 9.4.2
+  resolution: "@nestjs/platform-fastify@npm:9.4.2"
   dependencies:
     "@fastify/cors": 8.2.1
     "@fastify/formbody": 7.4.0
@@ -1629,7 +1629,7 @@ __metadata:
     fastify: 4.17.0
     light-my-request: 5.9.1
     path-to-regexp: 3.2.0
-    tslib: 2.5.0
+    tslib: 2.5.2
   peerDependencies:
     "@fastify/static": ^6.0.0
     "@fastify/view": ^7.0.0
@@ -1640,7 +1640,7 @@ __metadata:
       optional: true
     "@fastify/view":
       optional: true
-  checksum: 5fa34b413654c19087c1262dd5668511b2890ecbc5adc09ec26e7f2ac1ec44eb2d3487d5d2cb3a867b39c414746a18889a8f949c144b11c0fbbd2f03023510ff
+  checksum: 3c0ad33798e70c45ff43c617dde9e4245fcbd4799dea99ac69bb9d32a5a226519cbc51caff8aee75e50feac1ad62577fa7c4f6fa879cf714130160c6df0cb012
   languageName: node
   linkType: hard
 
@@ -3412,7 +3412,7 @@ __metadata:
     "@nestjs/cli": ^9.0.0
     "@nestjs/common": ^9.0.0
     "@nestjs/core": ^9.0.0
-    "@nestjs/platform-fastify": ^9.4.1
+    "@nestjs/platform-fastify": ^9.4.2
     "@nestjs/schematics": ^9.0.0
     "@nestjs/testing": ^9.0.0
     "@types/jest": 29.5.1
@@ -10887,17 +10887,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"tslib@npm:2.5.2, tslib@npm:^2.0.0, tslib@npm:^2.1.0, tslib@npm:^2.3.1, tslib@npm:^2.4.0, tslib@npm:^2.5.0":
+  version: 2.5.2
+  resolution: "tslib@npm:2.5.2"
+  checksum: 4d3c1e238b94127ed0e88aa0380db3c2ddae581dc0f4bae5a982345e9f50ee5eda90835b8bfba99b02df10a5734470be197158c36f9129ac49fdc14a6a9da222
+  languageName: node
+  linkType: hard
+
 "tslib@npm:^1.8.1":
   version: 1.14.1
   resolution: "tslib@npm:1.14.1"
   checksum: dbe628ef87f66691d5d2959b3e41b9ca0045c3ee3c7c7b906cc1e328b39f199bb1ad9e671c39025bd56122ac57dfbf7385a94843b1cc07c60a4db74795829acd
-  languageName: node
-  linkType: hard
-
-"tslib@npm:^2.0.0, tslib@npm:^2.1.0, tslib@npm:^2.3.1, tslib@npm:^2.4.0, tslib@npm:^2.5.0":
-  version: 2.5.2
-  resolution: "tslib@npm:2.5.2"
-  checksum: 4d3c1e238b94127ed0e88aa0380db3c2ddae581dc0f4bae5a982345e9f50ee5eda90835b8bfba99b02df10a5734470be197158c36f9129ac49fdc14a6a9da222
   languageName: node
   linkType: hard
 
