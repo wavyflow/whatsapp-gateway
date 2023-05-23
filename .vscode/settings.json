@@ -1,0 +1,8 @@
+{
+  "eslint.packageManager": "yarn",
+  "eslint.workingDirectories": [
+    "./apps/backend",
+    "./apps/frontend",
+    "./packages/database"
+  ],
+}
