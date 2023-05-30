@@ -27,7 +27,7 @@
     "seed": "tsx packages/database/src/seed.ts"
   },
   "devDependencies": {
-    "@commitlint/cli": "^17.6.3",
+    "@commitlint/cli": "^17.6.5",
     "@commitlint/config-conventional": "^17.6.5",
     "@yarnpkg/sdks": "^3.0.0-rc.44",
     "eslint": "^8.41.0",
