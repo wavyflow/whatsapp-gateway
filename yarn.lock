@@ -1658,11 +1658,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nestjs/testing@npm:^9.4.2":
-  version: 9.4.2
-  resolution: "@nestjs/testing@npm:9.4.2"
+"@nestjs/testing@npm:^9.4.3":
+  version: 9.4.3
+  resolution: "@nestjs/testing@npm:9.4.3"
   dependencies:
-    tslib: 2.5.2
+    tslib: 2.5.3
   peerDependencies:
     "@nestjs/common": ^9.0.0
     "@nestjs/core": ^9.0.0
@@ -1673,7 +1673,7 @@ __metadata:
       optional: true
     "@nestjs/platform-express":
       optional: true
-  checksum: f3aeb7b318a8d6ff7594cf4636c4818f187eaadc909235dbe9c60fdba739cf41bf1a30c1d4f142d07db2cf25c3d2ba35b407dabe5ea6381f2c903f5ce744d8a6
+  checksum: 0f3373a7e451e39cb38c7ee67f793efb1583ab795f6e42a959afd5c50180536886c9ed6ac621102392f85c74191a31c654e66b0225fc94d6433aef044ca8d46a
   languageName: node
   linkType: hard
 
@@ -3549,7 +3549,7 @@ __metadata:
     "@nestjs/core": ^9.4.2
     "@nestjs/platform-fastify": ^9.4.3
     "@nestjs/schematics": ^9.0.0
-    "@nestjs/testing": ^9.4.2
+    "@nestjs/testing": ^9.4.3
     "@types/jest": 29.5.2
     "@types/node": 20.2.5
     "@types/supertest": ^2.0.11
