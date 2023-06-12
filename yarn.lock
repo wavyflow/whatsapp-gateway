@@ -1567,12 +1567,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nestjs/common@npm:^9.4.2":
-  version: 9.4.2
-  resolution: "@nestjs/common@npm:9.4.2"
+"@nestjs/common@npm:^9.4.3":
+  version: 9.4.3
+  resolution: "@nestjs/common@npm:9.4.3"
   dependencies:
     iterare: 1.2.1
-    tslib: 2.5.2
+    tslib: 2.5.3
     uid: 2.0.2
   peerDependencies:
     cache-manager: <=5
@@ -1587,7 +1587,7 @@ __metadata:
       optional: true
     class-validator:
       optional: true
-  checksum: d4f0b32da2499af46947c84073b863ff20358be0e093975208958dcebd8d459121ec582bae2f2f9f2caa90897df36173d11b6760053e644a8bca76a26f9d45fd
+  checksum: 45ccb5acac2521a05576f37b37ab94c63a83aefb1839ed670635090bb934c1bd532852cb7be9863ee3b9d1ad80aa84e0602be023c626623f9233257dcb754914
   languageName: node
   linkType: hard
 
@@ -3545,7 +3545,7 @@ __metadata:
   resolution: "backend@workspace:apps/backend"
   dependencies:
     "@nestjs/cli": ^9.0.0
-    "@nestjs/common": ^9.4.2
+    "@nestjs/common": ^9.4.3
     "@nestjs/core": ^9.4.2
     "@nestjs/platform-fastify": ^9.4.3
     "@nestjs/schematics": ^9.0.0
