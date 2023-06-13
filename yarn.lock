@@ -1449,9 +1449,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@material-tailwind/react@npm:^2.0.1":
-  version: 2.0.1
-  resolution: "@material-tailwind/react@npm:2.0.1"
+"@material-tailwind/react@npm:^2.0.2":
+  version: 2.0.2
+  resolution: "@material-tailwind/react@npm:2.0.2"
   dependencies:
     "@floating-ui/react": ^0.19.0
     "@heroicons/react": ^2.0.13
@@ -1466,7 +1466,7 @@ __metadata:
   peerDependencies:
     react: ^16 || ^17 || ^18
     react-dom: ^16 || ^17 || ^18
-  checksum: 3442f90b570917a827e7b70ed6f2b1617640c41c4953d37a84efbe6a7e3a8ea9592a64a07bf71dc67f21eb18bb85a572a98e63280abddf23bc8796ab3b7cd481
+  checksum: 30b43b32fa472cd2a5f1208c8565f400ed062bff469ac5b859b2cc1fbf74561b3a36edb5f8ef9fe17f3754565288ce8b4d801309b796132bcb33893bb616909b
   languageName: node
   linkType: hard
 
@@ -5724,7 +5724,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "frontend@workspace:apps/frontend"
   dependencies:
-    "@material-tailwind/react": ^2.0.1
+    "@material-tailwind/react": ^2.0.2
     "@types/node": ^20.3.0
     "@types/react": ^18.2.12
     "@types/react-dom": ^18.2.5
