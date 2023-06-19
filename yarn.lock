@@ -1626,28 +1626,28 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nestjs/platform-fastify@npm:^9.4.3":
-  version: 9.4.3
-  resolution: "@nestjs/platform-fastify@npm:9.4.3"
+"@nestjs/platform-fastify@npm:^10.0.2":
+  version: 10.0.2
+  resolution: "@nestjs/platform-fastify@npm:10.0.2"
   dependencies:
     "@fastify/cors": 8.3.0
     "@fastify/formbody": 7.4.0
     "@fastify/middie": 8.3.0
     fastify: 4.18.0
-    light-my-request: 5.9.1
+    light-my-request: 5.10.0
     path-to-regexp: 3.2.0
     tslib: 2.5.3
   peerDependencies:
     "@fastify/static": ^6.0.0
     "@fastify/view": ^7.0.0
-    "@nestjs/common": ^9.0.0
-    "@nestjs/core": ^9.0.0
+    "@nestjs/common": ^10.0.0
+    "@nestjs/core": ^10.0.0
   peerDependenciesMeta:
     "@fastify/static":
       optional: true
     "@fastify/view":
       optional: true
-  checksum: 6b14c6bf8969fae0887701e14b2c42e2978f21df1c25905ae7aee2e67a50f165c151738a8b2989d0dfe5ebda7ae41b324b2d7d4cc5e2187fa55bff5cf8078896
+  checksum: 92ebc75807637efea14b16cec7835653133ea08aafcae4f7db037c32d68d451f6d252501ee9dd6a6ccb7f15c8e0eab789d7a317037f7c8ed6116d4b5e926875b
   languageName: node
   linkType: hard
 
@@ -3508,7 +3508,7 @@ __metadata:
     "@nestjs/cli": ^9.0.0
     "@nestjs/common": ^9.4.3
     "@nestjs/core": ^9.4.3
-    "@nestjs/platform-fastify": ^9.4.3
+    "@nestjs/platform-fastify": ^10.0.2
     "@nestjs/schematics": ^9.0.0
     "@nestjs/testing": ^9.4.3
     "@types/jest": 29.5.2
@@ -7638,18 +7638,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"light-my-request@npm:5.9.1":
-  version: 5.9.1
-  resolution: "light-my-request@npm:5.9.1"
-  dependencies:
-    cookie: ^0.5.0
-    process-warning: ^2.0.0
-    set-cookie-parser: ^2.4.1
-  checksum: d501924ed3b4e04819145d6577c778a04573305762d6e6e8606307e6253a77a5c71e0ca60d79f37b76232d7cb9ccda11d47ca9969ee5934ca69179c7ee97c07f
-  languageName: node
-  linkType: hard
-
-"light-my-request@npm:^5.9.1":
+"light-my-request@npm:5.10.0, light-my-request@npm:^5.9.1":
   version: 5.10.0
   resolution: "light-my-request@npm:5.10.0"
   dependencies:
