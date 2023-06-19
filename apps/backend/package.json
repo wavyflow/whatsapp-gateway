@@ -24,7 +24,7 @@
     "@nestjs/common": "^9.4.3",
     "@nestjs/core": "^9.4.3",
     "@nestjs/platform-fastify": "^9.4.3",
-    "@whiskeysockets/baileys": "^6.2.1",
+    "@whiskeysockets/baileys": "^6.3.0",
     "reflect-metadata": "^0.1.13",
     "rxjs": "^7.2.0"
   },
