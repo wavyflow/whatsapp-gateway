@@ -5,6 +5,13 @@ __metadata:
   version: 6
   cacheKey: 8
 
+"@adiwajshing/keyed-db@npm:^0.2.4":
+  version: 0.2.4
+  resolution: "@adiwajshing/keyed-db@npm:0.2.4"
+  checksum: f661329d6ee0b5641dcf55c27e192ef89a3aebfd2ebf6971329e33e05474e3a8b60dba4243d30997ba8b45789b281db3898373e01445c90ceb5af03c25e240a3
+  languageName: node
+  linkType: hard
+
 "@alloc/quick-lru@npm:^5.2.0":
   version: 5.2.0
   resolution: "@alloc/quick-lru@npm:5.2.0"
@@ -2792,12 +2799,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@whiskeysockets/baileys@npm:^6.2.1":
-  version: 6.2.1
-  resolution: "@whiskeysockets/baileys@npm:6.2.1"
+"@whiskeysockets/baileys@npm:^6.3.0":
+  version: 6.3.0
+  resolution: "@whiskeysockets/baileys@npm:6.3.0"
   dependencies:
+    "@adiwajshing/keyed-db": ^0.2.4
     "@hapi/boom": ^9.1.3
     axios: ^1.3.3
+    cache-manager: ^5.2.2
     futoin-hkdf: ^1.5.1
     libphonenumber-js: ^1.10.20
     libsignal: "git+https://github.com/adiwajshing/libsignal-node.git"
@@ -2806,16 +2815,13 @@ __metadata:
     pino: ^7.0.0
     protobufjs: ^6.11.3
     uuid: ^9.0.0
-    ws: ^8.0.0
+    ws: ^8.13.0
   peerDependencies:
-    "@adiwajshing/keyed-db": ^0.2.4
     jimp: ^0.16.1
     link-preview-js: ^3.0.0
     qrcode-terminal: ^0.12.0
     sharp: ^0.30.5
   peerDependenciesMeta:
-    "@adiwajshing/keyed-db":
-      optional: true
     jimp:
       optional: true
     link-preview-js:
@@ -2824,7 +2830,7 @@ __metadata:
       optional: true
     sharp:
       optional: true
-  checksum: de4a9dc18d63bf1cb3af98d2d914d26a7eeca628a0b1d77a2e26d27f87321052ac38eb13a21f333bfbd89f9b95a127f8d7c2804a87ce1767e4ddbfd409157fe8
+  checksum: c613b455219be39ec5e794115dd861b61b9ae2a5701e1cbef2c735c313f2f7d9fbba1fc18b3e13f9f1158d1549b7bcddcd521c72e949bc16e0405d2fa5cb751d
   languageName: node
   linkType: hard
 
@@ -3511,7 +3517,7 @@ __metadata:
     "@types/webpack-node-externals": ^3
     "@typescript-eslint/eslint-plugin": ^5.59.11
     "@typescript-eslint/parser": ^5.59.11
-    "@whiskeysockets/baileys": ^6.2.1
+    "@whiskeysockets/baileys": ^6.3.0
     eslint: ^8.42.0
     eslint-config-custom: "workspace:^"
     eslint-config-prettier: ^8.3.0
@@ -3728,6 +3734,16 @@ __metadata:
     tar: ^6.1.11
     unique-filename: ^2.0.0
   checksum: d91409e6e57d7d9a3a25e5dcc589c84e75b178ae8ea7de05cbf6b783f77a5fae938f6e8fda6f5257ed70000be27a681e1e44829251bfffe4c10216002f8f14e6
+  languageName: node
+  linkType: hard
+
+"cache-manager@npm:^5.2.2":
+  version: 5.2.3
+  resolution: "cache-manager@npm:5.2.3"
+  dependencies:
+    lodash.clonedeep: ^4.5.0
+    lru-cache: ^9.1.2
+  checksum: 2bcd6a385e5575bf9577a209e02c9f5074cd476e6eb08a0f108e45d80c20f4e91fbff163493fe345f166f8ecb232687f20541bc4f42fb2167f8770f9f8b26c51
   languageName: node
   linkType: hard
 
@@ -7741,6 +7757,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"lodash.clonedeep@npm:^4.5.0":
+  version: 4.5.0
+  resolution: "lodash.clonedeep@npm:4.5.0"
+  checksum: 92c46f094b064e876a23c97f57f81fbffd5d760bf2d8a1c61d85db6d1e488c66b0384c943abee4f6af7debf5ad4e4282e74ff83177c9e63d8ff081a4837c3489
+  languageName: node
+  linkType: hard
+
 "lodash.isfunction@npm:^3.0.9":
   version: 3.0.9
   resolution: "lodash.isfunction@npm:3.0.9"
@@ -7901,6 +7924,13 @@ __metadata:
   version: 9.1.1
   resolution: "lru-cache@npm:9.1.1"
   checksum: 4d703bb9b66216bbee55ead82a9682820a2b6acbdfca491b235390b1ef1056000a032d56dfb373fdf9ad4492f1fa9d04cc9a05a77f25bd7ce6901d21ad9b68b7
+  languageName: node
+  linkType: hard
+
+"lru-cache@npm:^9.1.2":
+  version: 9.1.2
+  resolution: "lru-cache@npm:9.1.2"
+  checksum: d3415634be3908909081fc4c56371a8d562d9081eba70543d86871b978702fffd0e9e362b83921b27a29ae2b37b90f55675aad770a54ac83bb3e4de5049d4b15
   languageName: node
   linkType: hard
 
@@ -11822,7 +11852,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ws@npm:^8.0.0":
+"ws@npm:^8.13.0":
   version: 8.13.0
   resolution: "ws@npm:8.13.0"
   peerDependencies:
