@@ -1935,10 +1935,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@prisma/engines@npm:4.15.0":
-  version: 4.15.0
-  resolution: "@prisma/engines@npm:4.15.0"
-  checksum: 61b53fe5ad7b0927de9aa4f51027e281788258d3fb5e389c3ae940829fdc5428a7108ce0cae5b329ddac0ee3206b0b9f8e8adae401c456f77d912c96368cfa5f
+"@prisma/engines@npm:4.16.1":
+  version: 4.16.1
+  resolution: "@prisma/engines@npm:4.16.1"
+  checksum: 7b8c1a9e20434edaa919fb24585ebff573c4ace787ea5a135dfefde3571ae31d3f0b0347397774c38be6d2e3fc0087d4e21a2720fe9f7a66ffd870e34377040f
   languageName: node
   linkType: hard
 
@@ -4384,7 +4384,7 @@ __metadata:
     eslint-config-prettier: ^8.5.0
     eslint-plugin-prettier: ^4.2.1
     prettier: ^2.3.2
-    prisma: ^4.15.0
+    prisma: ^4.16.1
     rimraf: ^5.0.1
     tsconfig: "workspace:^"
     tsup: ^6.7.0
@@ -9324,15 +9324,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prisma@npm:^4.15.0":
-  version: 4.15.0
-  resolution: "prisma@npm:4.15.0"
+"prisma@npm:^4.16.1":
+  version: 4.16.1
+  resolution: "prisma@npm:4.16.1"
   dependencies:
-    "@prisma/engines": 4.15.0
+    "@prisma/engines": 4.16.1
   bin:
     prisma: build/index.js
     prisma2: build/index.js
-  checksum: a42b940396f5f101d44effad9bfccca4b062ae80a369dc44961cbc074326239340f05c5af49981b1cddb08d9155c4bcc93c4d69ed2ae4a634e1742159204cb89
+  checksum: eb0f43970464fbaa6ba190a714f23d00acd39dcc14fd8a7183dffc51a548cc32040cc5360415787578749862af7501a7bedcf9f2a0e64a3f82e3af402e9439d7
   languageName: node
   linkType: hard
 
@@ -11699,7 +11699,7 @@ __metadata:
     husky: ^8.0.3
     lint-staged: ^13.2.2
     prettier: ^2.8.8
-    prisma: ^4.15.0
+    prisma: ^4.16.1
     tsx: ^3.12.7
     turbo: ^1.10.3
     typescript: ^5.1.3
