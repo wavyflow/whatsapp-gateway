@@ -2303,7 +2303,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:20.3.2":
+"@types/node@npm:20.3.2, @types/node@npm:^20.3.2":
   version: 20.3.2
   resolution: "@types/node@npm:20.3.2"
   checksum: 5929ce2b9b12b1e2a2304a0921a953c72a81f5753ad39ac43b99ce6312fbb2b4fb5bc6b60d64a2550704e3223cd5de1299467d36085ac69888899db978f2653a
@@ -2321,13 +2321,6 @@ __metadata:
   version: 10.17.60
   resolution: "@types/node@npm:10.17.60"
   checksum: 2cdb3a77d071ba8513e5e8306fa64bf50e3c3302390feeaeff1fd325dd25c8441369715dfc8e3701011a72fed5958c7dfa94eb9239a81b3c286caa4d97db6eef
-  languageName: node
-  linkType: hard
-
-"@types/node@npm:^20.3.1":
-  version: 20.3.1
-  resolution: "@types/node@npm:20.3.1"
-  checksum: 63a393ab6d947be17320817b35d7277ef03728e231558166ed07ee30b09fd7c08861be4d746f10fdc63ca7912e8cd023939d4eab887ff6580ff704ff24ed810c
   languageName: node
   linkType: hard
 
@@ -4383,7 +4376,7 @@ __metadata:
   resolution: "database@workspace:packages/database"
   dependencies:
     "@prisma/client": ^4.16.1
-    "@types/node": ^20.3.1
+    "@types/node": ^20.3.2
     "@typescript-eslint/eslint-plugin": ^5.60.1
     "@typescript-eslint/parser": ^5.60.1
     eslint: ^8.43.0
@@ -5748,7 +5741,7 @@ __metadata:
   resolution: "frontend@workspace:apps/frontend"
   dependencies:
     "@material-tailwind/react": ^2.0.4
-    "@types/node": ^20.3.1
+    "@types/node": ^20.3.2
     "@types/react": ^18.2.14
     "@types/react-dom": ^18.2.6
     autoprefixer: ^10.4.14
