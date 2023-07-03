@@ -2303,10 +2303,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:20.3.2, @types/node@npm:^20.3.2":
-  version: 20.3.2
-  resolution: "@types/node@npm:20.3.2"
-  checksum: 5929ce2b9b12b1e2a2304a0921a953c72a81f5753ad39ac43b99ce6312fbb2b4fb5bc6b60d64a2550704e3223cd5de1299467d36085ac69888899db978f2653a
+"@types/node@npm:20.3.3":
+  version: 20.3.3
+  resolution: "@types/node@npm:20.3.3"
+  checksum: 7a0d00800451ca8cd8df63a8cc218c697edadb3143bf46cd6afeb974542a6a1665c3679459be0016c29216ccfed6616b7e55851747527dfa71c5608d9157528c
   languageName: node
   linkType: hard
 
@@ -2321,6 +2321,13 @@ __metadata:
   version: 10.17.60
   resolution: "@types/node@npm:10.17.60"
   checksum: 2cdb3a77d071ba8513e5e8306fa64bf50e3c3302390feeaeff1fd325dd25c8441369715dfc8e3701011a72fed5958c7dfa94eb9239a81b3c286caa4d97db6eef
+  languageName: node
+  linkType: hard
+
+"@types/node@npm:^20.3.2":
+  version: 20.3.2
+  resolution: "@types/node@npm:20.3.2"
+  checksum: 5929ce2b9b12b1e2a2304a0921a953c72a81f5753ad39ac43b99ce6312fbb2b4fb5bc6b60d64a2550704e3223cd5de1299467d36085ac69888899db978f2653a
   languageName: node
   linkType: hard
 
@@ -3513,7 +3520,7 @@ __metadata:
     "@nestjs/schematics": ^9.0.0
     "@nestjs/testing": ^9.4.3
     "@types/jest": 29.5.2
-    "@types/node": 20.3.2
+    "@types/node": 20.3.3
     "@types/supertest": ^2.0.11
     "@types/webpack-node-externals": ^3
     "@typescript-eslint/eslint-plugin": ^5.60.1
@@ -11220,58 +11227,58 @@ __metadata:
   languageName: node
   linkType: hard
 
-"turbo-darwin-64@npm:1.10.6":
-  version: 1.10.6
-  resolution: "turbo-darwin-64@npm:1.10.6"
+"turbo-darwin-64@npm:1.10.7":
+  version: 1.10.7
+  resolution: "turbo-darwin-64@npm:1.10.7"
   conditions: os=darwin & cpu=x64
   languageName: node
   linkType: hard
 
-"turbo-darwin-arm64@npm:1.10.6":
-  version: 1.10.6
-  resolution: "turbo-darwin-arm64@npm:1.10.6"
+"turbo-darwin-arm64@npm:1.10.7":
+  version: 1.10.7
+  resolution: "turbo-darwin-arm64@npm:1.10.7"
   conditions: os=darwin & cpu=arm64
   languageName: node
   linkType: hard
 
-"turbo-linux-64@npm:1.10.6":
-  version: 1.10.6
-  resolution: "turbo-linux-64@npm:1.10.6"
+"turbo-linux-64@npm:1.10.7":
+  version: 1.10.7
+  resolution: "turbo-linux-64@npm:1.10.7"
   conditions: os=linux & cpu=x64
   languageName: node
   linkType: hard
 
-"turbo-linux-arm64@npm:1.10.6":
-  version: 1.10.6
-  resolution: "turbo-linux-arm64@npm:1.10.6"
+"turbo-linux-arm64@npm:1.10.7":
+  version: 1.10.7
+  resolution: "turbo-linux-arm64@npm:1.10.7"
   conditions: os=linux & cpu=arm64
   languageName: node
   linkType: hard
 
-"turbo-windows-64@npm:1.10.6":
-  version: 1.10.6
-  resolution: "turbo-windows-64@npm:1.10.6"
+"turbo-windows-64@npm:1.10.7":
+  version: 1.10.7
+  resolution: "turbo-windows-64@npm:1.10.7"
   conditions: os=win32 & cpu=x64
   languageName: node
   linkType: hard
 
-"turbo-windows-arm64@npm:1.10.6":
-  version: 1.10.6
-  resolution: "turbo-windows-arm64@npm:1.10.6"
+"turbo-windows-arm64@npm:1.10.7":
+  version: 1.10.7
+  resolution: "turbo-windows-arm64@npm:1.10.7"
   conditions: os=win32 & cpu=arm64
   languageName: node
   linkType: hard
 
-"turbo@npm:^1.10.6":
-  version: 1.10.6
-  resolution: "turbo@npm:1.10.6"
+"turbo@npm:^1.10.7":
+  version: 1.10.7
+  resolution: "turbo@npm:1.10.7"
   dependencies:
-    turbo-darwin-64: 1.10.6
-    turbo-darwin-arm64: 1.10.6
-    turbo-linux-64: 1.10.6
-    turbo-linux-arm64: 1.10.6
-    turbo-windows-64: 1.10.6
-    turbo-windows-arm64: 1.10.6
+    turbo-darwin-64: 1.10.7
+    turbo-darwin-arm64: 1.10.7
+    turbo-linux-64: 1.10.7
+    turbo-linux-arm64: 1.10.7
+    turbo-windows-64: 1.10.7
+    turbo-windows-arm64: 1.10.7
   dependenciesMeta:
     turbo-darwin-64:
       optional: true
@@ -11287,7 +11294,7 @@ __metadata:
       optional: true
   bin:
     turbo: bin/turbo
-  checksum: 920985d59b088e3e203450ee42446a4e0efa7de3a6455828146089e0e9efc4981e52998f7c13fcb730158e652d84bfc49149ebe33ab4a4cc033db7ab32934390
+  checksum: 58329caf13b5fef284ccfc21bd1f841023122371d75d2202be809a385aade84fd886cf5c2093323c115c497d503c9c34e1f7ae09e13d06d1dcb4b649883f60dd
   languageName: node
   linkType: hard
 
@@ -11720,7 +11727,7 @@ __metadata:
     prettier: ^2.8.8
     prisma: ^4.16.2
     tsx: ^3.12.7
-    turbo: ^1.10.6
+    turbo: ^1.10.7
     typescript: ^5.1.6
   languageName: unknown
   linkType: soft
