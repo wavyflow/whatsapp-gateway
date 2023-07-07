@@ -1164,7 +1164,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@jest/core@npm:^29.6.0, @jest/core@npm:^29.6.1":
+"@jest/core@npm:^29.6.1":
   version: 29.6.1
   resolution: "@jest/core@npm:29.6.1"
   dependencies:
@@ -1398,7 +1398,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@jest/types@npm:^29.6.0, @jest/types@npm:^29.6.1":
+"@jest/types@npm:^29.6.1":
   version: 29.6.1
   resolution: "@jest/types@npm:29.6.1"
   dependencies:
@@ -1495,9 +1495,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@material-tailwind/react@npm:^2.0.4":
-  version: 2.0.4
-  resolution: "@material-tailwind/react@npm:2.0.4"
+"@material-tailwind/react@npm:^2.0.5":
+  version: 2.0.5
+  resolution: "@material-tailwind/react@npm:2.0.5"
   dependencies:
     "@floating-ui/react": ^0.19.0
     "@heroicons/react": ^2.0.13
@@ -1512,7 +1512,7 @@ __metadata:
   peerDependencies:
     react: ^16 || ^17 || ^18
     react-dom: ^16 || ^17 || ^18
-  checksum: 5534bfb0a8319ed9d77355169878004f1b7eaa2a7563f37845b990d0a7e674870292b0774f0ccb0d944a68d9a1c521cf1a4d9e1ddc0f2c7805f58f768a43336c
+  checksum: 3754f87d34fc8c0830e3f547027c0b2bb234d26755de25a66eadaaf0f2a9d3ca7f1f975a4e3291dd2be35874c182e909c672338e9c50278186a5326c67120a64
   languageName: node
   linkType: hard
 
@@ -3578,7 +3578,7 @@ __metadata:
     eslint-config-custom: "workspace:^"
     eslint-config-prettier: ^8.3.0
     eslint-plugin-prettier: ^4.0.0
-    jest: 29.6.0
+    jest: 29.6.1
     prettier: ^2.3.2
     reflect-metadata: ^0.1.13
     run-script-webpack-plugin: ^0.2.0
@@ -5817,7 +5817,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "frontend@workspace:apps/frontend"
   dependencies:
-    "@material-tailwind/react": ^2.0.4
+    "@material-tailwind/react": ^2.0.5
     "@types/node": ^20.4.0
     "@types/react": ^18.2.14
     "@types/react-dom": ^18.2.6
@@ -7080,7 +7080,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jest-cli@npm:^29.6.0":
+"jest-cli@npm:^29.6.1":
   version: 29.6.1
   resolution: "jest-cli@npm:29.6.1"
   dependencies:
@@ -7529,14 +7529,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jest@npm:29.6.0":
-  version: 29.6.0
-  resolution: "jest@npm:29.6.0"
+"jest@npm:29.6.1":
+  version: 29.6.1
+  resolution: "jest@npm:29.6.1"
   dependencies:
-    "@jest/core": ^29.6.0
-    "@jest/types": ^29.6.0
+    "@jest/core": ^29.6.1
+    "@jest/types": ^29.6.1
     import-local: ^3.0.2
-    jest-cli: ^29.6.0
+    jest-cli: ^29.6.1
   peerDependencies:
     node-notifier: ^8.0.1 || ^9.0.0 || ^10.0.0
   peerDependenciesMeta:
@@ -7544,7 +7544,7 @@ __metadata:
       optional: true
   bin:
     jest: bin/jest.js
-  checksum: de70a7fba864e6af413092beca6c38cfe1552624207ae849df3a069270c78456b7094a4fcf4335015902bcff275576f0f1d98d958691425503513446dd9891aa
+  checksum: 7b8c0ca72f483e00ec19dcf9549f9a9af8ae468ab62925b148d714b58eb52d5fea9a082625193bc833d2d9b64cf65a11f3d37857636c5551af05c10aec4ce71b
   languageName: node
   linkType: hard
 
