@@ -2295,13 +2295,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/jest@npm:29.5.2":
-  version: 29.5.2
-  resolution: "@types/jest@npm:29.5.2"
+"@types/jest@npm:29.5.3":
+  version: 29.5.3
+  resolution: "@types/jest@npm:29.5.3"
   dependencies:
     expect: ^29.0.0
     pretty-format: ^29.0.0
-  checksum: 7d205599ea3cccc262bad5cc173d3242d6bf8138c99458509230e4ecef07a52d6ddcde5a1dbd49ace655c0af51d2dbadef3748697292ea4d86da19d9e03e19c0
+  checksum: e36bb92e0b9e5ea7d6f8832baa42f087fc1697f6cd30ec309a07ea4c268e06ec460f1f0cfd2581daf5eff5763475190ec1ad8ac6520c49ccfe4f5c0a48bfa676
   languageName: node
   linkType: hard
 
@@ -2349,10 +2349,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:20.4.0, @types/node@npm:^20.4.0":
-  version: 20.4.0
-  resolution: "@types/node@npm:20.4.0"
-  checksum: 8ad632ee131611651fc5f4ac3a47427640e2492ab314fe1c4d0c3b97af71784ef48c53221d5f9922aab4724375dcb4f33137b3107ba2c356d9366216a31678aa
+"@types/node@npm:20.4.1, @types/node@npm:^20.4.1":
+  version: 20.4.1
+  resolution: "@types/node@npm:20.4.1"
+  checksum: 22cbcc792f2eb636fe4188778ed0f32658ab872aa7fcb9847b3fa289a42b14b9f5e30c6faec50ef3c7adbc6c2a246926e5858136bb8b10c035a3fcaa6afbeed2
   languageName: node
   linkType: hard
 
@@ -3567,8 +3567,8 @@ __metadata:
     "@nestjs/platform-fastify": ^9.4.3
     "@nestjs/schematics": ^9.0.0
     "@nestjs/testing": ^9.4.3
-    "@types/jest": 29.5.2
-    "@types/node": 20.4.0
+    "@types/jest": 29.5.3
+    "@types/node": 20.4.1
     "@types/supertest": ^2.0.11
     "@types/webpack-node-externals": ^3
     "@typescript-eslint/eslint-plugin": ^5.61.0
@@ -4432,7 +4432,7 @@ __metadata:
   resolution: "database@workspace:packages/database"
   dependencies:
     "@prisma/client": ^4.16.2
-    "@types/node": ^20.4.0
+    "@types/node": ^20.4.1
     "@typescript-eslint/eslint-plugin": ^5.61.0
     "@typescript-eslint/parser": ^5.61.0
     eslint: ^8.44.0
@@ -5818,7 +5818,7 @@ __metadata:
   resolution: "frontend@workspace:apps/frontend"
   dependencies:
     "@material-tailwind/react": ^2.0.5
-    "@types/node": ^20.4.0
+    "@types/node": ^20.4.1
     "@types/react": ^18.2.14
     "@types/react-dom": ^18.2.6
     autoprefixer: ^10.4.14
