@@ -2349,10 +2349,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:20.4.0, @types/node@npm:^20.4.0":
-  version: 20.4.0
-  resolution: "@types/node@npm:20.4.0"
-  checksum: 8ad632ee131611651fc5f4ac3a47427640e2492ab314fe1c4d0c3b97af71784ef48c53221d5f9922aab4724375dcb4f33137b3107ba2c356d9366216a31678aa
+"@types/node@npm:20.4.2, @types/node@npm:^20.4.2":
+  version: 20.4.2
+  resolution: "@types/node@npm:20.4.2"
+  checksum: 99e544ea7560d51f01f95627fc40394c24a13da8f041121a0da13e4ef0a2aa332932eaf9a5e8d0e30d1c07106e96a183be392cbba62e8cf0bf6a085d5c0f4149
   languageName: node
   linkType: hard
 
@@ -3568,7 +3568,7 @@ __metadata:
     "@nestjs/schematics": ^9.0.0
     "@nestjs/testing": ^9.4.3
     "@types/jest": 29.5.3
-    "@types/node": 20.4.0
+    "@types/node": 20.4.2
     "@types/supertest": ^2.0.11
     "@types/webpack-node-externals": ^3
     "@typescript-eslint/eslint-plugin": ^5.61.0
@@ -4432,7 +4432,7 @@ __metadata:
   resolution: "database@workspace:packages/database"
   dependencies:
     "@prisma/client": ^4.16.2
-    "@types/node": ^20.4.0
+    "@types/node": ^20.4.2
     "@typescript-eslint/eslint-plugin": ^5.61.0
     "@typescript-eslint/parser": ^5.61.0
     eslint: ^8.44.0
@@ -5818,7 +5818,7 @@ __metadata:
   resolution: "frontend@workspace:apps/frontend"
   dependencies:
     "@material-tailwind/react": ^2.0.5
-    "@types/node": ^20.4.0
+    "@types/node": ^20.4.2
     "@types/react": ^18.2.14
     "@types/react-dom": ^18.2.6
     autoprefixer: ^10.4.14
