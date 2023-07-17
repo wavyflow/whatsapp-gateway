@@ -1665,28 +1665,28 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nestjs/platform-fastify@npm:^9.4.3":
-  version: 9.4.3
-  resolution: "@nestjs/platform-fastify@npm:9.4.3"
+"@nestjs/platform-fastify@npm:^10.1.0":
+  version: 10.1.0
+  resolution: "@nestjs/platform-fastify@npm:10.1.0"
   dependencies:
     "@fastify/cors": 8.3.0
     "@fastify/formbody": 7.4.0
     "@fastify/middie": 8.3.0
-    fastify: 4.18.0
-    light-my-request: 5.9.1
+    fastify: 4.19.2
+    light-my-request: 5.10.0
     path-to-regexp: 3.2.0
-    tslib: 2.5.3
+    tslib: 2.6.0
   peerDependencies:
     "@fastify/static": ^6.0.0
-    "@fastify/view": ^7.0.0
-    "@nestjs/common": ^9.0.0
-    "@nestjs/core": ^9.0.0
+    "@fastify/view": ^7.0.0 || ^8.0.0
+    "@nestjs/common": ^10.0.0
+    "@nestjs/core": ^10.0.0
   peerDependenciesMeta:
     "@fastify/static":
       optional: true
     "@fastify/view":
       optional: true
-  checksum: 6b14c6bf8969fae0887701e14b2c42e2978f21df1c25905ae7aee2e67a50f165c151738a8b2989d0dfe5ebda7ae41b324b2d7d4cc5e2187fa55bff5cf8078896
+  checksum: 334e2ffc2f7540096211776f30b74c2d499ed64e9b13c0895d745e2660bdc5a81d9d879355cd05606e4675cae9abf4b36634acf1ecda4be9b5a6db542b79bb31
   languageName: node
   linkType: hard
 
@@ -3564,7 +3564,7 @@ __metadata:
     "@nestjs/cli": ^9.0.0
     "@nestjs/common": ^9.4.3
     "@nestjs/core": ^9.4.3
-    "@nestjs/platform-fastify": ^9.4.3
+    "@nestjs/platform-fastify": ^10.1.0
     "@nestjs/schematics": ^9.0.0
     "@nestjs/testing": ^9.4.3
     "@types/jest": 29.5.3
@@ -5566,9 +5566,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fastify@npm:4.18.0":
-  version: 4.18.0
-  resolution: "fastify@npm:4.18.0"
+"fastify@npm:4.19.2":
+  version: 4.19.2
+  resolution: "fastify@npm:4.19.2"
   dependencies:
     "@fastify/ajv-compiler": ^3.5.0
     "@fastify/error": ^3.2.0
@@ -5586,7 +5586,7 @@ __metadata:
     secure-json-parse: ^2.5.0
     semver: ^7.5.0
     tiny-lru: ^11.0.1
-  checksum: 14dc83e3cc46edf4c0c8874eec2d9e95c96980acd3dfa0114d40cf0b27e09f1c01e4956d5bdb412be955c59e4e1e4a9c28a31659dfb26e8c1d0e2d77af4d926e
+  checksum: 64bd66dc0fc6b188dd7642af01b08d9010855155910fa158b08a74a1d38dc0908323588d9bd93077e0a9aaa8bb597580de9327ab7240c69370c6059d517e62d5
   languageName: node
   linkType: hard
 
@@ -7768,18 +7768,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"light-my-request@npm:5.9.1":
-  version: 5.9.1
-  resolution: "light-my-request@npm:5.9.1"
-  dependencies:
-    cookie: ^0.5.0
-    process-warning: ^2.0.0
-    set-cookie-parser: ^2.4.1
-  checksum: d501924ed3b4e04819145d6577c778a04573305762d6e6e8606307e6253a77a5c71e0ca60d79f37b76232d7cb9ccda11d47ca9969ee5934ca69179c7ee97c07f
-  languageName: node
-  linkType: hard
-
-"light-my-request@npm:^5.9.1":
+"light-my-request@npm:5.10.0, light-my-request@npm:^5.9.1":
   version: 5.10.0
   resolution: "light-my-request@npm:5.10.0"
   dependencies:
@@ -11264,6 +11253,13 @@ __metadata:
   version: 2.5.3
   resolution: "tslib@npm:2.5.3"
   checksum: 88902b309afaf83259131c1e13da1dceb0ad1682a213143a1346a649143924d78cf3760c448b84d796938fd76127183894f8d85cbb3bf9c4fddbfcc140c0003c
+  languageName: node
+  linkType: hard
+
+"tslib@npm:2.6.0":
+  version: 2.6.0
+  resolution: "tslib@npm:2.6.0"
+  checksum: c01066038f950016a18106ddeca4649b4d76caa76ec5a31e2a26e10586a59fceb4ee45e96719bf6c715648e7c14085a81fee5c62f7e9ebee68e77a5396e5538f
   languageName: node
   linkType: hard
 
